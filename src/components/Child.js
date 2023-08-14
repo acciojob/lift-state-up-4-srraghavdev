@@ -16,7 +16,7 @@ return (
     <h1>Child Component</h1>
     {props.items.map(element=>(
         <li>
-            {element.name}- {'$'+element.price}
+            {element.name+'- '+'$'+element.price}
             <button onClick={()=>changedata(element.name)}>Remove</button>
         </li>
        
